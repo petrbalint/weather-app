@@ -1,0 +1,16 @@
+# Java and Spring Boot
+/backend/target/
+/backend/.idea/
+/backend/.mvn/
+/backend/.project
+/backend/.classpath
+/backend/.settings
+/backend/*.iml
+/backend/*.ipr
+/backend/*.iws
+
+# Node and React
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/electron.js
