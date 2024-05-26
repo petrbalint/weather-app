@@ -12,6 +12,7 @@ const WeatherApp = () => {
       if (!apiKey) {
         throw new Error('API key is missing');
       }
+      //const response = await axios.get(`http://localhost:8080/weather?location=${location}`);
       const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`);
       setWeather(response.data);
       setError(null);
